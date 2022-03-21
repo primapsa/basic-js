@@ -23,7 +23,7 @@ function countCats(matrix) {
   return matrix.flat().filter(el => el === '^^').length;
  
 }
-//console.log(countCats(matrix));
+//console.log( countCats(matrix));
 module.exports = {
   countCats
 };

@@ -35,7 +35,7 @@ function getCommonCharacterCount(s1, s2) {
   });
   return chars.count;   
 }
-//console.log(getCommonCharacterCount('aabcc', 'adcaa'));
+
 
 module.exports = {
   getCommonCharacterCount
