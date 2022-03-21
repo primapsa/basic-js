@@ -33,9 +33,9 @@ function getCommonCharacterCount(s1, s2) {
       }
     }
   });
-  return chars.count;   
+  return chars.count;  
+   
 }
-
 
 module.exports = {
   getCommonCharacterCount
