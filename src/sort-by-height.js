@@ -14,7 +14,8 @@ const { NotImplementedError } = require("../extensions/index.js");
 function sortByHeight(arr) {
   const positon = arr.map((el, index) => {if (el === -1) { return index;}}).filter((el) => isFinite(el));
   const sorted = arr.filter((el, indx) => el!==-1).sort((a, b) => a - b);
-  positon.forEach((el) => sorted.splice(el, 0, -1))  
+  positon.forEach((el) => sorted.splice(el, 0, -1)) 
+  return sorted; 
 }
 
 module.exports = {
